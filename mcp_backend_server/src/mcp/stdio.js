@@ -1,5 +1,5 @@
-const { StdioServerTransport } = require('@modelcontextprotocol/sdk/server/stdio');
-const { McpServer } = require('@modelcontextprotocol/sdk/server/mcp');
+const { StdioServerTransport } = require('@modelcontextprotocol/sdk/server/stdio.js');
+const { McpServer } = require('@modelcontextprotocol/sdk/server/mcp.js');
 const { z } = require('zod');
 
 const { loadMcpDbConfig } = require('./config');
